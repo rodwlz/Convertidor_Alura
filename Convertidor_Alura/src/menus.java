@@ -38,6 +38,27 @@ public class menus {
         return opcionSeleccionada;
     }
 
+    public static void ShowResult(String message){
+        JOptionPane.showMessageDialog(null,message);
+    }
 
-}
+    public static Boolean Continue(){
+        Boolean run = false;
+        String[] opciones = {"Si","No"};
+        
+        int seleccion = JOptionPane.showOptionDialog(null, "Desea continuar?", "Menú", JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null, opciones, opciones[0]);
+ 
+        if(seleccion==0){
+            run=true;
+        }
+        return run;
+    }
+
+    public static void exit(){
+        JOptionPane.showMessageDialog(null,"Programa Finalizado","Message",JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    }
+
+
 

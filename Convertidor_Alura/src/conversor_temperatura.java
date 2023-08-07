@@ -6,10 +6,10 @@ public class conversor_temperatura {
 Double temperatura = 0.0;
 System.out.println(opcion);
         switch (opcion) {
-            case "Celsius/Fahrenheit":
+            case "Celcius/Fahrenheit":
                 temperatura = (temperaturaInicial * 9 / 5) + 32;
                 break;
-            case "Celsius/Kelvin":
+            case "Celcius/Kelvin":
                 temperatura = temperaturaInicial + 273.15;
                 break;
             case "Fahrenheit/Kelvin":
@@ -18,7 +18,7 @@ System.out.println(opcion);
             case "Kelvin/Fahrenheit":
                 temperatura = (temperaturaInicial * 9 / 5) - 459.67;
                 break;
-            case "Kelvin/Celsius":
+            case "Kelvin/Celcius":
                 temperatura = temperaturaInicial - 273.15;
                 break;
         }
