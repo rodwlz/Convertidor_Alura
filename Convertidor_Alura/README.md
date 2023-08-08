@@ -1,6 +1,6 @@
 # Conversores de Moneda y Temperatura
 
-Este es un programa Java que te permite convertir entre diferentes unidades de moneda y temperatura.
+Este es un programa Java que te permite convertir entre diferentes unidades de moneda y temperatura para solo usar el programa ejecuta 'Convertidor_Alura.jar' para ver el codigo fuente vea la carpeta src.
 
 ## Clase 1: App
 
