@@ -1,18 +1,29 @@
-## Getting Started
+# Conversores de Moneda y Temperatura
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este es un programa Java que te permite convertir entre diferentes unidades de moneda y temperatura.
 
-## Folder Structure
+## Clase 1: App
 
-The workspace contains two folders by default, where:
+La clase principal `App` maneja la interacción con el usuario y coordina las conversiones. Permite al usuario seleccionar el tipo de conversión y la cantidad a convertir.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Clase 2: menus
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+La clase `menus` contiene métodos para mostrar menús y obtener información del usuario. Proporciona opciones para seleccionar el tipo de conversión, ingresar la cantidad a convertir y decidir si continuar o salir del programa.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Clase 3: conversor_moneda
 
-## Dependency Management
+La clase `conversor_moneda` contiene el método `Divisas`, que realiza conversiones entre diferentes divisas. Se basa en tasas de cambio predefinidas para realizar las conversiones de manera precisa.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Clase 4: conversor_temperatura
+
+La clase `conversor_temperatura` maneja las conversiones entre diferentes unidades de temperatura. Contiene el método `unidades`, que convierte entre Celsius, Fahrenheit y Kelvin según la opción seleccionada.
+
+## Instrucciones de Uso
+
+1. Ejecuta la clase `App` para comenzar el programa.
+2. Selecciona el tipo de conversión: "Conversor de moneda" o "Conversor de temperatura".
+3. Ingresa la cantidad a convertir.
+4. Observa el resultado de la conversión en la pantalla.
+5. Decide si deseas continuar convirtiendo o salir del programa.
+ 
+ ## Autor: Rodrigo Zapata Gómez
